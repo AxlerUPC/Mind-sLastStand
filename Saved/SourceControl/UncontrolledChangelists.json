@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/UI/UI_Xp.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Componentes/BPC_Salud.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Interface/BPI_Interactuar.uasset"
+			]
+		}
+	]
+}
