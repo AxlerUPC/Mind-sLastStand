@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Enemigo.h"  // ← agregás este include arriba del todo junto a los otros
 #include "MindLastStandCharacter.h"
+#include "Enemigo.h"  // ← agregás este include arriba del todo junto a los otros
+
 
 // Sets default values
 AMindLastStandCharacter::AMindLastStandCharacter()

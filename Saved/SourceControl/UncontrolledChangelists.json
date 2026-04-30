@@ -3,23 +3,13 @@
 	"changelists": [
 		{
 			"guid": "00000000000000000000000000000000",
-			"description": "Lista de cambios no controlados predeterminada",
+			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/BP_Item.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/UI/UI_interactuarMSG.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/83/ZUT2CFYA2SVB6LA2ZY2Y46.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/Interface/BPI_Interactuar.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/Actions/IA_Interact.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/IMC_Default.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/Interface/BPI_Objetos.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/UI/UI_inventario.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/Actions/IA_Equip.uasset",
-				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
-				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/UI/UI_Xp.uasset",
-				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Componentes/BPC_Salud.uasset",
-				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Interface/BPI_Interactuar.uasset"
+				"D:/UE_5.4/Mind-sLastStand-main/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/X0/1LA08HXNBA9BBZJ62YG6GR.uasset",
+				"D:/UE_5.4/Mind-sLastStand-main/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/HG/HXKIH9XRQVNCS826W7APYH.uasset",
+				"D:/UE_5.4/Mind-sLastStand-main/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/AB/AFP5GHPFAKM6A4JVDEYJQV.uasset",
+				"D:/UE_5.4/Mind-sLastStand-main/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/UE_5.4/Mind-sLastStand-main/Content/BLUEPRINTS/Enemigos/BP_Enemigo.uasset"
 			]
 		}
 	]
