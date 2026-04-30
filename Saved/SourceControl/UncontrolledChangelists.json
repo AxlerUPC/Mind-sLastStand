@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Lista de cambios no controlados predeterminada",
+			"files": [
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/BP_Item.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/UI/UI_interactuarMSG.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/83/ZUT2CFYA2SVB6LA2ZY2Y46.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/Interface/BPI_Interactuar.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/Actions/IA_Interact.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/Interface/BPI_Objetos.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/BLUEPRINTS/UI/UI_inventario.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/ThirdPerson/Input/Actions/IA_Equip.uasset",
+				"D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/UI/UI_Xp.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Componentes/BPC_Salud.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/pyroh/Documents/Unreal Projects/MindsLastStand/Content/BLUEPRINTS/Interface/BPI_Interactuar.uasset"
+			]
+		}
+	]
+}
