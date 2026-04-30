@@ -1,0 +1,21 @@
+# Unreal Engine
+.idea/
+Config/
+Content/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.VC.db
+
+# Logs
+*.log
+*.tmp
+*.pdb
