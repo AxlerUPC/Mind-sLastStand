@@ -28,5 +28,11 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	void Attack();
+	
+private:
+	FTimerHandle AttackTimerHandle;
+	bool bIsAttacking = false;
+    
+	void ApplyAttackDamage();
 
 };

@@ -37,20 +37,34 @@ void AMindLastStandCharacter::SetupPlayerInputComponent(UInputComponent* PlayerI
 
 void AMindLastStandCharacter::Attack()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Attack llamado"));
+    if (bIsAttacking) return;  // bloquea si ya está atacando
 
-	TArray<AActor*> OverlappingActors;
-	GetOverlappingActors(OverlappingActors, AEnemigo::StaticClass());
+    bIsAttacking = true;
 
-	UE_LOG(LogTemp, Warning, TEXT("Dummies cerca: %d"), OverlappingActors.Num());
+    // Dispara el daño a los 0.5 segundos (ajustá según tu animación)
+    GetWorldTimerManager().SetTimer(
+        AttackTimerHandle,
+        this,
+        &AMindLastStandCharacter::ApplyAttackDamage,
+        0.5f,  // ← cambiá este número a la mitad de tu animación
+        false
+    );
+}
 
-	for (AActor* Actor : OverlappingActors)
-	{
-		AEnemigo* Enemigo = Cast<AEnemigo>(Actor);
-		if (Enemigo)
-		{
-			Enemigo->TakeDamageFromPlayer();
-			break;
-		}
-	}
+void AMindLastStandCharacter::ApplyAttackDamage()
+{
+    TArray<AActor*> OverlappingActors;
+    GetOverlappingActors(OverlappingActors, AEnemigo::StaticClass());
+
+    for (AActor* Actor : OverlappingActors)
+    {
+        AEnemigo* Enemigo = Cast<AEnemigo>(Actor);
+        if (Enemigo)
+        {
+            Enemigo->TakeDamageFromPlayer();
+            break;
+        }
+    }
+
+    bIsAttacking = false;  // libera para el próximo ataque
 }

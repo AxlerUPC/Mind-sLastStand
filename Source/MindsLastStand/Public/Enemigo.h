@@ -1,10 +1,10 @@
-#pragma once
+﻿#pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "Enemigo.generated.h"
 
 UCLASS()
-class MINDSLASTSTAND_API AEnemigo : public AActor
+class MINDSLASTSTAND_API AEnemigo : public ACharacter  // ← cambiás AActor por ACharacter
 {
     GENERATED_BODY()
 
@@ -23,12 +23,22 @@ public:
     UFUNCTION(BlueprintCallable)
     void TakeDamageFromPlayer();
 
+    // Puntos de patrulla — los asignás desde el editor
+    UPROPERTY(EditAnywhere)
+    TArray<AActor*> PatrolPoints;
+
 protected:
     virtual void BeginPlay() override;
+    virtual void Tick(float DeltaTime) override;
 
 private:
     UPROPERTY(VisibleAnywhere)
     class USphereComponent* HitSphere;
 
     void Die();
+    void MoveToNextPoint();
+
+    int32 CurrentPatrolIndex = 0;
+    bool bMovingForward = true;
+    FTimerHandle PatrolTimerHandle;
 };
